@@ -531,7 +531,10 @@ CONFIG_HAVE_TRUSTONIC_TEE_SUPPORT=y
 CONFIG_FINGERPRINT_GOODIX_GF_TEE=y
 # goodix fingerprint end
 
-# Begin INFERNUS - BLAZE ON FOR EONS
+###########################################
+### Begin INFERNUS - BLAZE ON FOR EONS ####
+###########################################
+
 
 # Governors
 CONFIG_CPU_FREQ_GOV_THUNDERX=y
@@ -542,3 +545,7 @@ CONFIG_CPU_FREQ_GOV_ZZMOOVE=y
 # FS
 #CONFIG_EXFAT_FS=y
 
+# Gestures
+# CONFIG_TOUCHSCREEN_SWEEP2WAKE is not set
+CONFIG_TOUCHSCREEN_DOUBLETAP2WAKE=y
+CONFIG_TOUCHSCREEN_PREVENT_SLEEP=y
