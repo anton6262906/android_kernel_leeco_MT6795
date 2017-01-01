@@ -34,12 +34,12 @@ nocol='\033[0m'
 TC="UBERTC"
 # Modify the following variable if you want to build
 export ARCH=arm64
-export LD_LIBRARY_PATH="/home/droidthug/ubertc/scripts/out/aarch64-linux-android-4.9/lib"
-export CROSS_COMPILE="/home/droidthug/ubertc/scripts/out/aarch64-linux-android-4.9/bin/aarch64-linux-android-"
+export LD_LIBRARY_PATH="../aarch64-linux-android-gcc-4.9/lib"
+export CROSS_COMPILE="../aarch64-linux-android-gcc-4.9/bin/aarch64-linux-android-"
 export SUBARCH=arm64
 export KBUILD_BUILD_USER="DroidThug"
-export KBUILD_BUILD_HOST="EvoqueUnit"
-STRIP="/home/droidthug/ubertc/scripts/out/aarch64-linux-android-4.9/bin/aarch64-linux-android-strip"
+export KBUILD_BUILD_HOST="TravisCI"
+STRIP="../aarch64-linux-android-4.9/bin/aarch64-linux-android-strip"
 MODULES_DIR=$KERNEL_DIR/arch/arm/boot/AnyKernel2/modules
 
 echo -e "${green}"
